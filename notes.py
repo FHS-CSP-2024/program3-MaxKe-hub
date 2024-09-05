@@ -8,7 +8,41 @@
 #* You will understand the difference between strings, integers and floating point numbers
 
 
+name = "Bob"
+print(name)
 
+myString = "something"
+myInt = 100
+myFloat = 2.5
+
+#casting example
+print(int(myInt)/2)
+myNewInt = "100"
+print(int(myNewInt)/2)
+
+
+num1 = input("Please enter a number: ")
+
+print(int(num1) + int(num1))
+
+print("My int = " + str(myInt))
+
+thing = 500/6
+print(thing)
+print("My result is " + str(thing))
+print("My result is" , thing)
+print(f"My result is {thing}") #fstring - {} are for variables
+
+
+print("First line\nSecond line\nThird line")
+print("List header")
+print("\tItem1")
+print("\tItem2")
+print("\t*Item3\n\t*Item4\n\t* Item 5")
+
+#File path example
+#C:\Users\myname\Documents\OneNote Notebooks
+print("C:\\User\\mrJohnson\\Document\\Okisdjnasd")
 ## Live Demo ##
 #
 # Casing
